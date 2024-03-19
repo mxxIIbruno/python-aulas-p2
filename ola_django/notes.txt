@@ -4,4 +4,4 @@ Comandos do Django:
     django-admin startproject nomeDoProjeto -> Iniciando um projeto
     Ex: "django-admin start project ." -> O ponto referece na raiz do projeto
 
-    python manage.py runserver -> ...
+    python manage.py runserver -> Iniciando um servidor de desemvolvimento
