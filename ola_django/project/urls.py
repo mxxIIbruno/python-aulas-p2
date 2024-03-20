@@ -18,9 +18,6 @@ from django.contrib import admin
 from django.urls import path
 from django.http import HttpResponse
 
-# HTTP Request <-> HTTP Response
-# MVT (MVC)
-
 
 def home(request):
     print('home')
@@ -33,7 +30,7 @@ def blog(request):
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
     path('', home),
     path('blog/', blog),
+    path('admin/', admin.site.urls),
 ]

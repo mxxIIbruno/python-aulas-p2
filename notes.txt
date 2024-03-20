@@ -6,3 +6,10 @@ Comandos do Django:
 
     python manage.py runserver -> Iniciando um servidor de desemvolvimento
     django-admin --help -> Mostra comandos disponíveis
+
+    python ola_django/manage.py startapp home -> Criar uma aplicação com nome "home"
+    python ola_django/manage.py startapp blog -> Criar uma aplicação com nome "blog"
+
+    Comentarios importantes:
+        HTTP Request <-> HTTP Response
+        MVT (MVC)
