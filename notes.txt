@@ -5,3 +5,4 @@ Comandos do Django:
     Ex: "django-admin start project ." -> O ponto referece na raiz do projeto
 
     python manage.py runserver -> Iniciando um servidor de desemvolvimento
+    django-admin --help -> Mostra comandos disponíveis
