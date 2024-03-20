@@ -22,12 +22,18 @@ from django.http import HttpResponse
 # MVT (MVC)
 
 
-def my_view(request):
-    print('posso fazer outras coisas')
-    return HttpResponse('Uma mensagem para alguém especial')
+def home(request):
+    print('home')
+    return HttpResponse('home')
+
+
+def blog(request):
+    print('blog')
+    return HttpResponse('blog')
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('blog/', my_view),
+    path('', home),
+    path('blog/', blog),
 ]
