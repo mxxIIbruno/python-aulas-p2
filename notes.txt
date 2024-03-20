@@ -13,3 +13,7 @@ Comandos do Django:
     Comentarios importantes:
         HTTP Request <-> HTTP Response
         MVT (MVC)
+
+    Outro tipo de importação (relativo)
+        Do home/views.py -> blog/urls.py
+        from . import views 
