@@ -5,14 +5,13 @@ def blog(request):
     print('blog')
 
     context = {
-        'text': 'Olá blog'
+        'text': 'Olá blog',
+        'title': 'BLOG -'
     }
 
-    return render(
-        request=request,
-        template_name='blog/index.html',
-        context=context
-    )
+    return render(request=request,
+                  template_name='blog/index.html',
+                  context=context)
 
 
 def exemplo(request):
