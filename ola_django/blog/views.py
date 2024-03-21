@@ -6,8 +6,22 @@ def blog(request):
     print('blog')
 
     context = {
-        'text': 'Olá blog',
+        # 'text': 'Olá blog',
         'title': 'BLOG -',
+        'posts': posts,
+    }
+
+    return render(request=request,
+                  template_name='blog/index.html',
+                  context=context)
+
+
+def post(request, id):
+    print('post', id)
+
+    context = {
+        # 'text': 'Olá blog',
+        'title': 'POST -',
         'posts': posts,
     }
 
@@ -20,7 +34,7 @@ def exemplo(request):
     print('exemplo')
 
     context = {
-        'text': 'Olá exemplo',
+        # 'text': 'Olá exemplo',
         'title': 'EXEMPLO -'
     }
 
