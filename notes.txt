@@ -16,4 +16,9 @@ Comandos do Django:
 
     Outro tipo de importação (relativo)
         Do home/views.py -> blog/urls.py
-        from . import views 
+        from . import views
+    
+    python ola_django/manage.py collectstatic -> Coleta os arquivos staticos
+    Ctrl + Shift + R -> Limpa o cache do seu navegador e/ou dorçar uma recarga da página ignorando o cache
+
+    instalei a whitenoise e configurei o debuger como false, gerei uma pasta static_files.

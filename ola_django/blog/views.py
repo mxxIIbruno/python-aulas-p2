@@ -8,7 +8,7 @@ def blog(request):
     print("blog")
 
     context = {
-        # 'text': 'Olá blog',
+        'text': 'Olá blog',
         "title": "BLOG -",
         "posts": posts,
     }
@@ -48,7 +48,7 @@ def exemplo(request):
     print("exemplo")
 
     context = {
-        # 'text': 'Olá exemplo',
+        'text': 'Olá exemplo',
         "title": "EXEMPLO -"
     }
 
